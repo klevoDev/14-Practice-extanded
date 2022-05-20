@@ -1,0 +1,29 @@
+.product {
+
+    &__label {
+        margin-bottom: 16px;
+    }
+
+    &__heading {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 116%;
+        color: #56597A;
+
+        margin-bottom: 31px;
+    }
+
+    &__text {
+        letter-spacing: 0.02em;
+        max-width: 653px;
+        margin-bottom: 36px;
+    }
+
+    &__wrap-image {
+        text-align: center;
+    }
+
+    &__image {
+    }
+}

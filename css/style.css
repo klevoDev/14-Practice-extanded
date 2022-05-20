@@ -69,11 +69,22 @@ h6 {
   font-family: 'Open Sans';
   font-size: 20px;
   line-height: 160%;
-  letter-spacing: 0.02em;
   color: #919299;
 }
 
+.subheading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 119%;
+  color: #56597A;
+}
+
 .page__product {
+  margin-bottom: 40px;
+}
+
+.page__ideas {
   margin-bottom: 40px;
 }
 
@@ -91,10 +102,30 @@ h6 {
 }
 
 .product__text {
+  letter-spacing: 0.02em;
   max-width: 653px;
   margin-bottom: 36px;
 }
 
 .product__wrap-image {
+  text-align: center;
+}
+
+.ideas__label {
+  margin-bottom: 15px;
+}
+
+.ideas__subheading {
+  max-width: 467px;
+  margin-left: 3px;
+  margin-bottom: 24px;
+}
+
+.ideas__text {
+  margin-left: 3px;
+  margin-bottom: 15px;
+}
+
+.ideas__wrap-image {
   text-align: center;
 }
