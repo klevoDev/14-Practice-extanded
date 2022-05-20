@@ -46,7 +46,11 @@ h6 {
 }
 
 .wrapper {
-  margin: 50px 0 8px;
+  margin: 50px 0 18px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -58,7 +62,6 @@ h6 {
 }
 
 .label {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 143%;
@@ -66,14 +69,13 @@ h6 {
 }
 
 .text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 160%;
   color: #919299;
 }
 
 .subheading {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 52px;
   line-height: 119%;
@@ -88,12 +90,15 @@ h6 {
   margin-bottom: 40px;
 }
 
+.page__teamwork {
+  margin-bottom: 35px;
+}
+
 .product__label {
   margin-bottom: 16px;
 }
 
 .product__heading {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 116%;
@@ -128,4 +133,22 @@ h6 {
 
 .ideas__wrap-image {
   text-align: center;
+}
+
+.teamwork__label {
+  margin-bottom: 15px;
+}
+
+.teamwork__subheading {
+  max-width: 467px;
+  margin-bottom: 24px;
+}
+
+.footer__copy {
+  text-align: center;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 214%;
+  letter-spacing: 0.02em;
+  color: #AAAAAA;
 }

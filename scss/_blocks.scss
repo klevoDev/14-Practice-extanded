@@ -1,7 +1,9 @@
 .wrapper {
-    margin: 50px 0 8px;
+    margin: 50px 0 18px;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     max-width: 701px;
     margin: 0 auto;
@@ -9,22 +11,21 @@
     box-sizing: content-box;
 }
 
-
 .label {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 28px;
     line-height: 143%;
     color: #F78CB6;
 }
+
 .text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 160%;
     color: #919299;
 }
+
 .subheading {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 52px;
     line-height: 119%;
