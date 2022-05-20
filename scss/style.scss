@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "_nullstyle";
+@import "_variables";
+@import "_blocks";
+@import "_page";
+@import "_start";
+
+
+
+.product {
+
+    &__label {
+        margin-bottom: 16px;
+    }
+
+    &__heading {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 116%;
+        color: #56597A;
+
+        margin-bottom: 31px;
+    }
+
+    &__text {
+        max-width: 653px;
+        margin-bottom: 36px;
+    }
+
+    &__wrap-image {
+        text-align: center;
+    }
+
+    &__image {
+    }
+}
+
+
+
